@@ -9,8 +9,8 @@ function adminer_object() {
 
     return new AdminerPlugin([
         new AdminerFrames(true),
-        new AdminerBootstrapLike(),
-        new AdminerTablesFilter()
+        new AdminerTablesFilter(),
+        new AdminerBootstrapLike()
     ]);
 }
 

@@ -683,6 +683,7 @@ p.nowrap {
 
 #logins,
 #tables {
+	position:fixed;
 	top: 210px;
 	left: 0;
 	/*background: orange;*/
